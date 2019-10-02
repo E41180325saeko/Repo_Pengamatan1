@@ -1,0 +1,11 @@
+body{
+	background: url('back.png');
+	color: #000000;
+}
+.tulisan_satu{
+	color: black;
+	font-family: sans-serif;
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+}
