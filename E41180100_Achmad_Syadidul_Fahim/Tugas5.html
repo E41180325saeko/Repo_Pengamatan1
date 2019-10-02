@@ -1,0 +1,46 @@
+<!--Web Keenam-->
+<!--Belajar HTML Part 12 : Atribut Form pada HTML-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Atribut Form pada html</title>
+</head>
+<body>
+<form>
+    <!--Atribut value-->
+	Nama Depan :<input type="text" value="nama"><br/>
+    Nama Belakang : <input type="text">
+    
+    <!--Atribut readonly-->
+    Nama Depan :<input type="text" value="nama" readonly><br/>
+    Nama Belakang : <input type="text">
+    
+    <!--Atribut disabled-->
+    Nama Depan :<input type="text" value="nama" disabled><br/>
+    Nama Belakang : <input type="text">
+    
+    <!--Atribut size-->
+    Nama Depan :<input type="text" value="nama" size="50"><br/>
+    Nama Belakang : <input type="text">
+    
+    <!--Atribut maxlenght-->
+    Nama Depan :<input type="text" value="nama" maxlength="10"><br/>
+    Nama Belakang : <input type="text">
+    
+    <!--Atribut list-->
+    <input list="browser" name="internet">
+    <datalist id="browser">
+    <option value="chrome">
+    <option value="mozilla">
+    <option value="opera">
+    </datalist>
+    
+    <!--Atribut min dan max-->
+    <input type="date" name="day" max="1979-12-31">
+    <input type="date" name="day" min="2000-01-02">
+    
+    <!--Placeholder attribute-->
+    <input type="text" name="nama" placeholder="masukkan nama">
+</form>
+</body>
+</html>
